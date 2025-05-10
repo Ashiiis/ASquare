@@ -1,0 +1,70 @@
+/* Basic Page Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f199c5; /* Baby Pink Background */
+}
+
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.reel-a {
+  transform:  translateY(30px)rotate(5deg);
+  z-index: 1;
+}
+.reel-b {
+  transform:  rotate(355deg) translateY(-70px);
+  z-index: 1;
+}
+
+.angled-reel{
+  margin-top: 30px;
+}
+/* Navbar Styles */
+.navbar {
+  background-color: #FFB385; /* Apricot Color */
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #FFD1A3;
+}
+
+/* Content Styles */
+.content {
+  padding: 2rem;
+  text-align: center;
+  color: #333;
+}

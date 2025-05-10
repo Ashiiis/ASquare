@@ -1,0 +1,52 @@
+.reel-container {
+  overflow: hidden;
+  width: 100%;
+  background-color: black;
+  padding: 10px 0;
+  border-top: 5px solid #333;
+  border-bottom: 5px solid #333;
+  margin-left: -30px;
+  overflow: hidden;
+}
+
+.reel-strip {
+  display: flex;
+  width: max-content;
+  animation: scroll-reel 60s linear infinite;
+}
+
+.reel-strip2 {
+  display: flex;
+  flex-direction: row-reverse; /* reverse the image order */
+  animation: scroll-left 60s linear infinite;
+}
+.reel-frame {
+  width: 300px;
+  height: 200px;
+  background-image: url('/images/film-border.png'); /* Optional: film frame border image */
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reel-frame img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  filter: sepia(60%);
+  border-radius: 10px;
+}
+
+/* Animation that makes the strip scroll endlessly */
+@keyframes scroll-reel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
