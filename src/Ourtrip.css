@@ -1,0 +1,17 @@
+.our-trips {
+  padding: 2rem;
+  background-color: #fff9f0;
+  font-family: 'Times New Roman', serif;
+}
+.trip-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+.trip-gallery img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}

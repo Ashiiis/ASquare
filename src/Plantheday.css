@@ -1,0 +1,20 @@
+.plan-the-day {
+  padding: 2rem;
+  background: #f5f3eb;
+  font-family: 'Georgia', serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.planner-input {
+  display: flex;
+  gap: 0.5rem;
+}
+.planner-input input {
+  flex: 1;
+  padding: 0.5rem;
+}
+.plan-list {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
