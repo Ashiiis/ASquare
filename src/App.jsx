@@ -69,7 +69,7 @@ const MainContent = () => {
           <div className="modal-content">
             {!authenticated ? (
               <>
-                <h3>🎁 Enter Secret Password</h3>
+                <h3>🎁 Enter Your New Name </h3>
                 <input
                   type="password"
                   value={inputPassword}
