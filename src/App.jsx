@@ -37,7 +37,7 @@ const MainContent = () => {
   const [inputPassword, setInputPassword] = useState('');
 
   const handleSubmit = () => {
-    if (inputPassword === 'secret123') {
+    if (inputPassword === 'chunkupunku') {
       setAuthenticated(true);
     }
   };
