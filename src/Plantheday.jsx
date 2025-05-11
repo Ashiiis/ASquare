@@ -1,6 +1,6 @@
 // PlanTheDay.jsx
 import React, { useState } from 'react';
-import './PlanTheDay.css';
+import './Plantheday.css';
 
 const PlanTheDay = () => {
   const [plans, setPlans] = useState([]);
